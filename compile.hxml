@@ -1,0 +1,8 @@
+--main Main
+--library captain
+--library haxe-strings
+--library console.hx
+-D version=1.0.0
+--no-traces
+--dce full
+--cpp Main
