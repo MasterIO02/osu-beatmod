@@ -31,9 +31,9 @@ For the beatmap and difficulty arguments, you don't need to type the exact same 
 * `--version` / `-v`: Show the version
 
 ## Build
-You need Haxe (and haxelib) to build the project.
-The default compiler target for osu-beatmod is C++. Install `hxcpp` with haxelib.
-Download the dependencies listed in the app.hxml file using haxelib (`haxelib install [dependency name]`), and run `haxe compile.hxml`
+You need Haxe (and haxelib) to build the project.  
+The default compiler target for osu-beatmod is C++. Install `hxcpp` with haxelib.  
+Download the dependencies listed in the app.hxml file using haxelib (`haxelib install [dependency name]`), and run `haxe compile.hxml`  
 
 ## TODO
 * If multiple beatmaps contain the same difficulty name, maybe add a `--mapper` argument to find the wanted map
