@@ -1,5 +1,4 @@
 --library captain
 --library haxe-strings
 --library console.hx
--D builddate=__TIME__
 --run Main
