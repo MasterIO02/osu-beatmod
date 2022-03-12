@@ -10,7 +10,7 @@ Supports Windows and Linux, and probably MacOS but I can't compile for it.
 ## Usage
 Navigate to the directory where osu-beatmod is located.
 
-Windows, using cmd: `osu-beatmod <arguments>`
+Windows, using cmd: `osu-beatmod <arguments>`  
 Linux, Windows Powershell: `./osu-beatmod <arguments>`
 
 On Windows, you can open Powershell by pressing shift + right clicking on the folder, then choose open in Powershell.
