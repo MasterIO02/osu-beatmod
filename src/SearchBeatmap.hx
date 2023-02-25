@@ -97,6 +97,15 @@ function searchBeatmap(path, beatmap, difficulty) {
 				matchDifficulty(beatmapToCheck);
 			}
 
+			// filter duplicates
+			var okMatchingDifficulties = [];
+			for (difficulty in matchingDifficulties) {
+				if (!okMatchingDifficulties.contains(difficulty)) {
+					okMatchingDifficulties.push(difficulty);
+				}
+			}
+			matchingDifficulties = okMatchingDifficulties;
+
 			if (matchingDifficulties.length > 1 || matchingDifficulties.length == 0) {
 				filterFoundDifficulties();
 				Console.println("Multiple difficulties are matching your query. Please make your query more precise.");
