@@ -1,5 +1,10 @@
 # osu-beatmod
 
+> [!WARNING]
+> This repository is archived because beatmap difficulties can now be modified directly within osu!lazer, making this software obsolete.
+> There is no reason to play osu!stable anymore.
+> osu-beatmod should still work for 99% of beatmaps on osu!stable though.
+
 osu-beatmod is a CLI app allowing you to create modified osu! beatmap difficulties with speed changes (target BPM or target speed multiplier) and properties change (AR, OD, HP, CS). It's like "osu-trainer" but lighter, probably faster and that does not use gosumemory.
 Supports Windows and Linux, and probably MacOS but I can't compile for it.
 
